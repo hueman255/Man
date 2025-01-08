@@ -1,0 +1,113 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    animation: slide 15s infinite;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Vàng khi hover */
+}
+
+/* Home section styles */
+.home {
+    text-align: center;
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.home h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.home p {
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 15px;
+}
+
+/* Fashion section styles */
+.fall-winter-fashion {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.fall-winter-fashion h2 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.fashion-item {
+    display: inline-block;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.fashion-item img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.fashion-item img:hover {
+    transform: scale(1.05);
+}
+
+.fashion-item h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.fashion-item p {
+    font-size: 1.1em;
+    color: #777;
+    margin-top: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
